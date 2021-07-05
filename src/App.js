@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Homepage from './components/homepage.component';
 
 function App() {
   return (
-    <div>
-      <h2>Setting up Eslin & Prettier</h2>
-    </div>
+    <>
+      <Homepage />
+    </>
   );
 }
 
